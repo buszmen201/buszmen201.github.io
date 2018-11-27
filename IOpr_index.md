@@ -169,22 +169,24 @@ Każdy dzień pracujący w Lombardzie zaczyna się o godzinie 8:00. Pracownicy p
 *Rys 1: Faktura VAT (dot. sprzedaży towaru)*
 
 ![](({{ site.url }}/img02.jpg)
+
 *Rys 2: Paragon fiskalny (dot. sprzedaży towaru)*
 
 ![](({{ site.url }}/img03.jpg)
+
 *Wzór 1. Zaświadczenie o zastawieniu towaru (i udzieleniu pożyczki zwrotnej)*
 
 
-| Rodzaj naruszenia | Obowiązek zgłoszenia organowi nadzorczemu | Obowiązek zawiadomienia osoby której dane dotyczą  | Okoliczności naruszenia | Skutki naruszenia | Podjęte działania zaradcze |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+| Rodzaj naruszenia | Obowiązek zgłoszenia organowi nadzorczemu | Obowiązek zawiadomienia osoby której dane dotyczą | Okoliczności naruszenia | Skutki naruszenia | Podjęte działania zaradcze |
+|:-----------------:|:-----------------------------------------:|:-------------------------------------------------:|:-----------------------:|:-----------------:|:--------------------------:|
+|       &nbsp;      |                   &nbsp;                  |                       &nbsp;                      |          &nbsp;         |       &nbsp;      |           &nbsp;           |
+|       &nbsp;      |                   &nbsp;                  |                       &nbsp;                      |          &nbsp;         |       &nbsp;      |           &nbsp;           |
+|       &nbsp;      |                   &nbsp;                  |                       &nbsp;                      |          &nbsp;         |       &nbsp;      |           &nbsp;           |
 
 *Tab 2. Rejestr naruszeń ochrony danych osobowych*
 
 9. Ich zapis w notacji. 
-										
+
 Faktura = daneFaktury + daneSprzedawcy + daneNabywcy + zakupionyTowar
 daneFaktury = nrFaktury + dataSprzedaży + dataWystawienia + Miejscowość + sposóbZapłaty + terminPłatności + uwagi + podpis
 daneSprzedawcy = imięSprzedawcy + nazwiskoSprzedawcy + numerNip + nazwaBanku + numerKontaBankowego
