@@ -164,7 +164,7 @@ Każdy dzień pracujący w Lombardzie zaczyna się o godzinie 8:00. Pracownicy p
 8. **Lista dokumentów – jeżeli istnieją – ich skany, zdjęcia, jeżeli nie – opis/wygląd formularza, raportu (>=5).** 
 
 
-![](img01.jpg)
+![]({{ site.url }}/img01.jpg)
 *Rys 1: Faktura VAT (dot. sprzedaży towaru)*
 
 ![](img02.jpg)
@@ -174,14 +174,27 @@ Każdy dzień pracujący w Lombardzie zaczyna się o godzinie 8:00. Pracownicy p
 *Wzór 1. Zaświadczenie o zastawieniu towaru (i udzieleniu pożyczki zwrotnej)*
 
 
- |  | 
--------------------------------------------------------------+-------------------------------------------------
- | &nbsp; &nbsp;
-
-
-
 | Rodzaj naruszenia | Obowiązek zgłoszenia organowi nadzorczemu | Obowiązek zawiadomienia osoby której dane dotyczą  | Okoliczności naruszenia | Skutki naruszenia | Podjęte działania zaradcze |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+*Tab 2. Rejestr naruszeń ochrony danych osobowych*
+
+9. Ich zapis w notacji. 
+										
+Faktura = daneFaktury + daneSprzedawcy + daneNabywcy + zakupionyTowar
+daneFaktury = nrFaktury + dataSprzedaży + dataWystawienia + Miejscowość + sposóbZapłaty + terminPłatności + uwagi + podpis
+daneSprzedawcy = imięSprzedawcy + nazwiskoSprzedawcy + numerNip + nazwaBanku + numerKontaBankowego
+daneNabywcy = imięNabywcy + nazwiskoNabywcy + adresNabywcy +  numerNip
+zakupionyTowar = nazwaTowaru + ilość + cenaJednostkowa + wartośćTowaru
+
+
+
+
+
+Paragon = daneParagonu + daneSprzedawcy + daneNabywcy + zakupionyTowar
+daneParagonu = nrParagonu + dataSprzedaży + sposóbZapłaty + terminPłatności
+daneSprzedawcy = imięSprzedawcy + nazwiskoSprzedawcy + numerNIP + nazwaFirmy + adresSprzedawcy
+daneNabywcy = imięNabywcy + nazwiskoNabywcy 
+zakupionyTowar = nazwaTowaru + ilość + cenaJednostkowa + łącznaKwota
