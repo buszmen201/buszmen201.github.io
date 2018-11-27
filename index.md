@@ -1,6 +1,6 @@
 # Inżynieria oprogramowania
-[here](IOpr/index.md)
+[here](IOpr_index.md)
 
 # PSI
 
-[here](PSI/index.md)
+[here](PSI_index.md)
