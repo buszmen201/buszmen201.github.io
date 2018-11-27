@@ -168,11 +168,11 @@ Każdy dzień pracujący w Lombardzie zaczyna się o godzinie 8:00. Pracownicy p
 
 *Rys 1: Faktura VAT (dot. sprzedaży towaru)*
 
-![](({{ site.url }}/img02.jpg)
+![]({{ site.url }}/img02.jpg)
 
 *Rys 2: Paragon fiskalny (dot. sprzedaży towaru)*
 
-![](({{ site.url }}/img03.jpg)
+![]({{ site.url }}/img03.jpg)
 
 *Wzór 1. Zaświadczenie o zastawieniu towaru (i udzieleniu pożyczki zwrotnej)*
 
